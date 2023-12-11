@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.routines,
+.contact,
+.testimonials,
+.playlista,
+.sign-up {
+  display: flex;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.playlista {
+  background-image: url('C:\Users\lparr\Documents\Reactlume\artio\public\images\img-12.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.testimonials {
+  background-image: url('C:\Users\lparr\Documents\Reactlume\artio\public\images\img-11.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.routines {
+  background-image: url('C:\Users\lparr\Documents\Reactlume\artio\public\images\img-10.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact {
+  background-image: url('C:\Users\lparr\Documents\Reactlume\artio\public\images\img-9.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+h1.contact{
+  margin-bottom: 0rem;
+}
+.sign-up {
+  background-image: url('C:\Users\lparr\Documents\Reactlume\artio\public\images\img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  z-index: -5; /* Place the image behind the content */
+}
+

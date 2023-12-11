@@ -1,0 +1,71 @@
+.youtube-playlistB {
+    margin-top: 30px;
+  }
+  
+  .playlist-titleB {
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+    color: #fff;
+  }
+  
+  .videos-containerB {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+ 
+  .prev-next-buttonsB {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .prev-next-buttonB {
+    margin-right: 290px; 
+    margin-left: 290px;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    border-radius: 50px;
+    color: #b3ccdd;
+    background-color: #0e0d0d;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .prev-next-buttonB:hover {
+    background-color: #4f5a61;
+    color: #fff;
+    border: none;
+  }
+  
+  @media screen and (max-width: 380px) {
+    .prev-next-buttonsB {
+      position: absolute;
+      top: 105%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+    }
+    
+    .prev-next-buttonB {
+      margin-right: 20px; 
+      margin-left: 20px;
+      padding: 8px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #b3ccdd;
+    }
+    
+    .prev-next-buttonB:hover {
+      background-color: #4f5a61;
+      color: #fff;
+      border: none;
+    }
+  }

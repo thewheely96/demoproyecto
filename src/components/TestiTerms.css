@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Little';
+  src: url('../fonts/Little.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.testi-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  overflow-y:auto;
+  max-height: 90vh; 
+  max-width: 90%;
+}
+
+.testi-container::-webkit-scrollbar {
+  width: 0px; 
+}
+
+.testi-container h2 {
+  margin-top: 40px;
+  font-family: 'Little' ;
+  font-size: 26px;
+  color: #0a0a0a;
+}
+
+.videotesti-container {
+  margin-bottom: -10px;
+}
+
+.terms-container {
+  margin-bottom: 30px;
+}
+.videotesti-container iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 315px;
+  border: 1px solid #ccc;
+}
+.terms-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.terms-container ul li {
+  line-height: 1.6;
+  font-size: 13px; 
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+
+
+

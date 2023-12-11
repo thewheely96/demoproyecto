@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Granesta';
+  src: url('../fonts/Granesta.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Update';
+  src: url('../fonts/Update.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cream Bread';
+  src: url('../fonts/Cream Bread.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pic{
+    position: relative;
+    height: 100vh;
+}
+
+.skint-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  font-size: 5rem;
+  font-family: 'Update';
+  color: gray;
+  transition: color 0.3s ease-in-out; 
+}
+
+.skint-content:hover {
+  color: black; 
+  transition-delay: 0.2s; 
+}
+
+.texti-box a{
+  text-decoration: none;
+  font-style: italic;
+}
+
+
+.skint-content span.img-txt{
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+
+.texti-box {
+    text-align: center;
+    padding: 3rem 1rem;
+    text-align: justify;
+    background: rgba(41, 144, 158, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(41, 144, 158, 0.21);
+  }
+
+  .texti-box h3 {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font: 1.3rem;
+    color: white;
+    text-align: center;
+    font-family: 'Granesta', sans-serif;
+  }
+
+  .texti-box p{
+    letter-spacing: 4px;
+    text-transform:initial uppercase;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    font-family: 'Cream Bread';
+    font-weight:bolder;
+    text-align: justify;
+    padding: 0  9px 9px;
+  }
+
+  .list-skin li{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Cream Bread';
+    text-transform:initial uppercase;
+  }
+
+  @media screen and (max-width: 380px) {
+    .skint-content {
+      width: 90%;
+      font-size: 45px;
+      margin-left:20px;
+    }
+    .texti-box h3 {
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font: 1rem;
+      color: white;
+      text-align: center;
+      font-family: 'Granesta', sans-serif;
+    }
+    .texti-box p{
+      letter-spacing: 2px;
+      text-transform:initial uppercase;
+      font-size: 13px;
+      color: black;
+      text-align: center;
+      font-family: 'Cream Bread';
+      font-weight:bolder;
+      text-align: justify;
+      padding: 0  9px 9px;
+      margin-bottom: -20px;
+    }
+
+  }

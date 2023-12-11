@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Walton';
+    src: url('../fonts/Walton.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Granesta';
+    src: url('../fonts/Granesta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .skincare-container {
+    height: 520px;
+    width: 750px;
+    margin: 30px;
+    padding: 40px;
+    border: 3px solid rgb(0, 0, 0, 0.4);
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow:  inset -5px -5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .skincare-title {
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+    font-family: 'Granesta', sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 380px) {
+    .skincare-container {
+      height: 95%;
+      width:100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .skincare-title {
+      font-size: 1.2rem;
+    }
+  }

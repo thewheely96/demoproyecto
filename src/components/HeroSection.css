@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Flower Garden';
+    src: url('../fonts/Flower Garden.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Monday Ramen';
+    src: url('../fonts/Monday Ramen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.hero-container{
+    background: url('https: //i 0wp .com/post .healthline .com/wp content/uploads/ 2022px / 8px / 2390487px The Ultimate Skin Care Routine for Oily Skin_Header -1296ex 727jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.hero-container > h1{
+    color: #fff;
+    font-size: 80px;
+    margin-top: -300px;
+    font-family: 'Flower Garden', sans-serif;
+}
+
+.hero-container > p{
+    margin-top: 6px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Monday Ramen', sans-serif;
+}
+
+.hero-btns{
+    margin-top: 22px;
+}
+
+.hero-btns .btn {
+    margin: 8px;
+}
+
+.play-circle{
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 960px){
+    .hero-container > h1{
+        font-size: 50px;
+        margin-top: -150px;
+        font-family: 'Flower Garden', sans-serif;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-container > h1{
+        font-size: 50px;
+        margin-top: -150px;
+        font-family: 'Flower Garden', sans-serif;
+    }
+
+    .hero-container > p{
+        font-size: 20px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn{
+        width: 100%;
+    }
+}
